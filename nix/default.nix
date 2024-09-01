@@ -101,7 +101,6 @@ assert lib.assertMsg (!hidpiXWayland) "The option `hidpiXWayland` has been remov
       ninja
       pkg-config
       python3 # for udis86
-      wayland-scanner
     ];
 
     outputs = [
