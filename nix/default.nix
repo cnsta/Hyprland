@@ -89,10 +89,6 @@ assert lib.assertMsg (!hidpiXWayland) "The option `hidpiXWayland` has been remov
     DIRTY = lib.optionalString (commit == "") "dirty";
     HASH = commit;
 
-    depsBuildBuild = [
-      pkg-config
-    ];
-
     nativeBuildInputs = [
       hyprwayland-scanner
       jq
